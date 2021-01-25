@@ -1,12 +1,14 @@
-﻿namespace SlothEnterprise.ProductApplication.Products
+﻿namespace SlothEnterprise.ProductApplication.Products.SelectiveInvoiceDiscount
 {
     public class SelectiveInvoiceDiscount : IProduct
     {
         public int Id { get; set; }
+
         /// <summary>
         /// Proposed networth of the Invoice
         /// </summary>
         public decimal InvoiceAmount { get; set; }
+
         /// <summary>
         /// Percentage of the networth agreed and advanced to seller
         /// </summary>

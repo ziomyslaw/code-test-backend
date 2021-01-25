@@ -8,4 +8,10 @@
     <ProjectReference Include="..\SlothEnterprise.External\SlothEnterprise.External.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>..\..\..\..\Users\t6826\.nuget\packages\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\Microsoft.CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

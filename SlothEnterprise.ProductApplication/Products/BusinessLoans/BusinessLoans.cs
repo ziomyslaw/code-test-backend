@@ -1,8 +1,9 @@
-﻿namespace SlothEnterprise.ProductApplication.Products
+﻿namespace SlothEnterprise.ProductApplication.Products.BusinessLoans
 {
     public class BusinessLoans : IProduct
     {
         public int Id { get; set; }
+
         /// <summary>
         /// Per annum interest rate
         /// </summary>
